@@ -21,7 +21,7 @@ class  Switch_ex
 		}
 	}
 
-		
+	/* 	
 		case 1:{
 		System.out.println("Monday");
 		}
@@ -51,9 +51,9 @@ class  Switch_ex
 		break;
 		default :{
 			System.out.println("enter valid number ");
-		}
+		}*/
 		}
 
 		
-	}
+	
 
