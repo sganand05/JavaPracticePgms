@@ -8,6 +8,7 @@ public class Factor_num {
           if(num%i==0){
             System.out.println("Factors of number:"+i);
           }
+          
                 
             }
         }

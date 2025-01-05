@@ -10,6 +10,6 @@ class Swap_w3var
 		b=a-b;
 		a=a-b;
 		System.out.println("After Swapping two digits:"+a+"and"+b);
-		demo.add();
+		
 	}
 }
