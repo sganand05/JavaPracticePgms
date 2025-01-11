@@ -1,3 +1,4 @@
+//display index value of elements in Array
 import java.util.*;
 
 class Arr_ex 

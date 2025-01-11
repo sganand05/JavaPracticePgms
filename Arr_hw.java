@@ -4,26 +4,27 @@ class Arr_hw
 {
 	public static void main(String[] args) 
 	{
-	// user input 
-	Scanner sc=new Scanner(System.in);
-	System.out.print("Enter n number of array:");
-	// get input size from user 
-	int n=sc.nextInt();
-	int[] arr=new int[n];
-	for (int i=0;i<arr.length;i++ )// looping for array for size 
-	{
-		arr[i]=sc.nextInt();//getting input array from user 
-		
-	}
-	int sqr,val;//variable declaration
-	for (int i=0;i<arr.length ;i++ )//printing array
-	{
-		val=arr[i];//storing array values in val block of memory
-		sqr=val*val;//squaring val block of values and store it in sqr
-		System.out.println(" array of :  "+arr[i]+"  value  "+sqr);// printing statement 
+	try (// user input 
+	Scanner sc = new Scanner(System.in)) {
+		System.out.print("Enter n number of array:");
+		// get input size from user 
+		int n=sc.nextInt();
+		int[] arr=new int[n];
+		for (int i=0;i<arr.length;i++ )// looping for array for size 
+		{
+			arr[i]=sc.nextInt();//getting input array from user 
+			
+		}
+		int sqr,val;//variable declaration
+		for (int i=0;i<arr.length ;i++ )//printing array
+		{
+			val=arr[i];//storing array values in val block of memory
+			sqr=val*val;//squaring val block of values and store it in sqr
+			System.out.println(" array of :  "+arr[i]+"  value  "+sqr);// printing statement 
+		}
 	}
 	arr1();
-	arr2();
+	//arr2();
 	}
 	public static void arr1(){
 	 
@@ -38,6 +39,7 @@ class Arr_hw
 		 {
 			 max=arr[i];
 		 }
+		 
 		 if (min>arr[i])
 		 {
 			 min=arr[i];
@@ -45,10 +47,12 @@ class Arr_hw
 	 }
 	 System.out.println("maximum element:"+max);
 	 System.out.println("minimum element:"+min);
+	 int[] arr2={1,2,4,5};
+	arr2(arr2);
 	}
-	public static void arr2(){
+	public static void arr2(int[] arr){
 	 
-int[] arr={2,3,8,9,4,1};
+//int[] arr={2,3,8,9,4};
 System.out.println("Given arry:"+Arrays.toString(arr));
 // defining mark of start and end value
 int start=0;

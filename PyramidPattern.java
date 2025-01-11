@@ -55,6 +55,8 @@ import java.util.Scanner;
                         System.out.print(a+" ");
                         a++;
                     }
+                    
+                    
                     //System.out.print("* ");
                 }
                 // Move to the next line

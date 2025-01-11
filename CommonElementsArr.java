@@ -1,6 +1,6 @@
-
+// find common elements from two array
 import java.util.*;
-class Arr_hw2 
+class CommonElementsArr
 {
 	public static void main(String[] args) 
 	{
